@@ -1,0 +1,41 @@
+#about {
+  position: relative;
+}
+.s2-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.about-pic{
+  border-radius: 2rem;
+}
+.about-containers{
+  display:flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.about-details-container{
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.arrow{
+  position:absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+.para{
+  line-height: 1.5rem;
+}

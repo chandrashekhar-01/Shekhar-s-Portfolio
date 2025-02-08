@@ -1,0 +1,94 @@
+section{
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+
+.profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.img-cont {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  
+}
+.pp{
+  border-radius: 200px;
+  
+}
+
+.text{
+  align-self: center;
+  text-align: center;
+}
+
+.text p {
+  font-weight: 600;
+}
+.greetings{
+  text-align: center;
+}
+.name{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.job {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.socials-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.cv{
+  background-color: white;
+  color: black;
+  width: 128px;
+  border-radius: 32px;
+  font-weight: 600;
+  padding: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  transition: all 300ms ease;
+}
+.cv:hover{
+cursor: pointer;
+background: rgb(53, 53, 53);
+color: white;
+border: rgb(255, 255, 255) 0.1rem solid;
+}
+.ci{
+  background: rgb(53, 53, 53);
+  color: white;
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  transition: all 300ms ease;
+} 
+.ci:hover{
+cursor: pointer;
+background: rgb(0, 0, 0);
+}
